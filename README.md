@@ -7,7 +7,7 @@ webpack 构建react es6 多入口，多页面项目
 
 执行 npm run build 打包开发环境
 
-使用 npm run server 开启服务预览了(npm start)
+使用 npm run start 开启服务预览了
 
 打包生产资源使用 npm run prod 生产环境
 
