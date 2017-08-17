@@ -1,0 +1,60 @@
+{
+  "name": "react-webpack-es6",
+  "version": "1.0.0",
+  "description": "\"react-webpack-demo\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot",
+    "build": "webpack --progress --colors",
+    "prod": "set NODE_ENV = production && webpack -p --progress --colors"
+  },
+  "author": "banmunongtian",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "clean-webpack-plugin": "^0.1.8",
+    "css-loader": "^0.28.4",
+    "cssnano": "^3.10.0",
+    "eslint": "^4.4.1",
+    "eslint-config-enough": "^0.2.8",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "html-withimg-loader": "^0.1.16",
+    "image-webpack-loader": "^3.3.1",
+    "img-loader": "^2.0.0",
+    "install": "^0.10.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "node-sass": "^4.5.2",
+    "optimize-css-assets-webpack-plugin": "^3.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.4"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "eslintConfig": {
+    "extends": "enough",
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+npm install  装好依赖
+
+npm run dev 启动服务
+
+npm run build 执行开发环境打包
+
+npm run prod 执行生产环境打包
+
+

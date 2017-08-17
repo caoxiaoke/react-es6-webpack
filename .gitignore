@@ -1,4 +1,4 @@
-# Logs
+# 忽略 node_modules/ 目录下的所有文件
 logs
 *.log
 npm-debug.log*
@@ -34,26 +34,10 @@ build/Release
 
 # Dependency directories
 node_modules/
-jspm_packages/
-
+# 忽略 build/ 目录下的所有文件
+build/
 # Typescript v1 declaration files
 typings/
 
 # Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# dotenv environment variables file
-.env
-
+npm-debug.log
