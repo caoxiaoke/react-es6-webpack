@@ -4,6 +4,7 @@
   "description": "\"react-webpack-demo\"",
   "main": "index.js",
   "scripts": {
+	"start": "webpack-dev-server --hot",
     "server": "webpack-dev-server --hot",
     "build": "webpack --progress --colors",
     "prod": "set NODE_ENV = production && webpack -p --progress --colors"
