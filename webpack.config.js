@@ -1,8 +1,4 @@
 /**
- * Created by fkcao on 2017/8/14.
- */
-
-/**
  * __dirname是node.js中的一个全局变量，它指向当前执行脚本所在的目录
  * 注意这里是exports不是export
  */
